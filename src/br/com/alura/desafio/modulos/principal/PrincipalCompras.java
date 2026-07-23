@@ -53,10 +53,15 @@ public class PrincipalCompras {
                     produto1 = new Produtos(nome, preco, quantidade);
                     break;
                 case 4:
-                    System.out.println("*********************************");
-                    System.out.println("Pagar com cartão: ");
-                    renan.pagarComCredito(produto1);
-                    break;
+                    if(produto1 != null) {
+                        System.out.println("*********************************");
+                        System.out.println("Pagar com cartão: ");
+                        renan.pagarComCredito(produto1);
+                    }else {
+                        System.out.println("Produto não cadastrado!");
+                    }
+                        break;
+
                 case 0:
                     System.out.println("Saindo......");
                     break;
