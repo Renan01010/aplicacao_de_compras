@@ -25,5 +25,7 @@ public class Banco {
         this.saldo+=saldo;
         System.out.println("Deposito Realizado!");
     }
+    apagardepois
+    
 
 }
