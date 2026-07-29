@@ -61,7 +61,6 @@ public class PrincipalCompras {
                         System.out.println("Produto não cadastrado!");
                     }
                         break;
-
                 case 0:
                     System.out.println("Saindo......");
                     break;
